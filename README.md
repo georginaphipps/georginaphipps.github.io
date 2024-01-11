@@ -1,110 +1,115 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Toe Beans Cat Rescue Website
 
-Welcome georgina phipps,
+View live website here
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+User Experience (UX)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+First Time Visitor Goals
 
-## Gitpod Reminders
+To clearly recognise what the website is about and be introduced to the charity.
+To easily navigate through the website to each page without searching.
+To locate reviews from existing clients to ensure this is thr right charity to choose or work with.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Returning Visitor Goals
 
-`python3 -m http.server`
+To easily locate where and how to contact the charity.
+To find digestible information on the process of rehoming.
 
-A blue button should appear to click: _Make Public_,
+Design
 
-Another blue button should appear to click: _Open Browser_.
+Colour Scheme
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The 3 main colours are black, white and pink
+Black and white are key contrasting colours which makes website content easy to read, the pink adds a fun, calming touch to compliment this.
 
-A blue button should appear to click: _Make Public_,
+An optional 4th colour would be a muted orange or green to create a full colour palette.
 
-Another blue button should appear to click: _Open Browser_.
+Typography
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The header font, Amatic SC, is a simple and effective hand-drawn font, which adds a playful touch. The paragraph font, Montserrat, is a classic and clean font which is easily readable to users. Sans-serif is the fallback font, in case of any import issues.
 
-To log into the Heroku toolbelt CLI:
+Imagery
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The 3 images used clearly give the user an expectation of what the charity is about. While no filters have been applied, the pictures chosen all have a similar feel and style to each other.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Wireframes
 
-------
+Homepage - https://github.com/georginaphipps/georginaphipps.github.io/blob/main/home%20page%20plan.jpg
+Contact Us Page - https://github.com/georginaphipps/georginaphipps.github.io/blob/main/contact%20us%20page%20plan.jpg
+Other Pages - https://github.com/georginaphipps/georginaphipps.github.io/blob/main/other%20pages%20plan.jpg
 
-## Release History
+Technologies Used
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Languages Used
 
-**September 20 2023:** Update Python version to 3.9.17.
+HTML5
+CSS
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Frameworks, Libraries and Programs Used
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Canva - Logo design and wireframes - https://www.canva.com/
+Git - Version control - https://git-scm.com/
+GitHub - To store and push the website live - https://github.com/
+GitPod - CDE - https://gitpod.io/
+Google Fonts - For all fonts used on the website - https://fonts.google.com/
+Google for Developers - To test amends on the website before committing - https://developers.google.com/
+Pexels - For the three hero images - https://www.pexels.com/
+VSCode - Editor - https://code.visualstudio.com/
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Testing
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Validation - W3c Markup Validator used to validate all pages and ensure no errors in the code.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+HTML Results - https://github.com/georginaphipps/georginaphipps.github.io/blob/main/HTML%20Validation.jpg
+CSS Results - https://github.com/georginaphipps/georginaphipps.github.io/blob/main/CSS%20Validation.jpg
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+First time
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+On the homepage, the user will find a clear logo and navigation bar at the top of the page. There is a welcome message and bold photo to clearly identify some information about the charity. Underneath, the user will find 3 positive reviews from existing clients that showcase what the charity is all about.
+The user can navigate easily around the website to the About Us page, Rehoming page and the Contact Us page without any issues. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Returning
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+On the Contact Us page, it is evident to the user that the best way to contact the charity is via the form which sits in the middle. The user is also made aware of how long they can expect to wait for a reply. On every page, the footer contains a contact email address for the user to note down if needed.
+The Rehoming page offers a welcoming photo and the process of rehoming is listed below with clear headers for each point.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Further Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Known Bugs
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Mobile device responsiveness not perfect, could not figure out a solution to fix this without deleting my code and copying someone elses code, which I did not want to do.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Deployment
 
-------
+1. Clone repository into your GitHub Repository by following these instructions - https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+2. Click on the 'Settings' tab on your GitHub Repository
+3. Got to the 'Pages' tab on the left-hand menu bar
+4. Under 'Source' change the dropdown option to 'main' or 'master' branch
+5. Click 'Save'
+6. The page will update and show 'Your site is ready to be published at "http........"
 
-## FAQ about the uptime script
+Credits
 
-**Why have you added this script?**
+Code
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+All code written by developer.
 
-**How will this affect me?**
+Educational websites
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+SheCodes.io
+W3schools.com
+mdn_ - https://developer.mozilla.org/en-US/docs/Web
+Youtube - ByteGrad, Code Institute, WebMaster, BroCode - https://www.youtube.com/
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Content
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+ChatGPT - For website text content purposes only - https://chat.openai.com/
+Logo was designed by developer in Canva.
 
-**So….?**
+Media
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Pexels images - Thomas Ryant, Mustafa Ezz, Louis Peng
 
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+End.
